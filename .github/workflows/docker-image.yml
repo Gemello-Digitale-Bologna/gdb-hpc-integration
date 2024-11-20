@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build examples/basic_container/ --file Dockerfile --tag test:$(date +%s)
+      run: docker build examples/basic_container/ --tag test:test
