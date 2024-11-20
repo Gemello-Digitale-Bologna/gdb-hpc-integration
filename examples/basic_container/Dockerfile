@@ -11,4 +11,4 @@ COPY src/ ./src
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-ENTRYPOINT [ "python", "./main.py"]
+ENTRYPOINT [ "python", "/app/main.py"]
