@@ -8,10 +8,6 @@ def process_data(infile, outfile):
 
 
 def process_files(input_list):
-
-    with open("/input/test.txt", "w") as f:
-        f.write("TEST")
-
     for input in input_list:
         df = pd.read_parquet(input)
 
